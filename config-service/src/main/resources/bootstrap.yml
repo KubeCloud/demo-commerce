@@ -9,8 +9,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/KubeCloud/demo-commerce
-          search-paths: 'configurations'
+          uri: https://github.com/KubeCloud/demo-commerce/
+          searchPaths: 'configurations'
 logging:
   level:
     org:
