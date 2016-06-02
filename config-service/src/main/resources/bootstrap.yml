@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/KubeCloud/demo-commerce
+          search-paths: 'configurations'
+---
+spring:
+  profiles: development
+server:
+  port: 8888
